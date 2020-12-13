@@ -61,6 +61,7 @@ function createCard(country){
     let capitalKey = createCustomElement("span","key");
     capitalKey.innerHTML = "Capital : ";
     let capitalvalue = createCustomElement("span","value","capitalvalue");
+    let capitalVal = "NA";
     if(country.capital){
         capitalVal = country.capital;
     }
